@@ -1,0 +1,19 @@
+body{
+    background-color: #fefae0;
+    font-family: 'Times New Roman', serif;
+}
+
+h1{
+    color: #bc6c25;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: #606c38 ;
+    }
+
+    h1{
+        font-size: 150%;
+    }
+
+  }
