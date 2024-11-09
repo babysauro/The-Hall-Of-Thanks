@@ -4,33 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>The Hall Of Thanks</title>
     <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=ZXCsJD7XMmCy&format=png&color=000000">
 </head>
 <body>
-    <div class = "centered">
-        <h1 id="title">Welcome to The Hall Of Thanks!</h1>
-    </div>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <ul id="sideMenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#tesi">Tesi</a></li>
-                    <li><a href="#ringraziamenti">Ringraziamenti</a></li>
-                    <i class="fas fa-times" onclick="closeMenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openMenu()"></i>
-            </nav>
+    <header class ="header">
+        <a href="#" class="logo">The Hall Of Thanks.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#">Tesi</a>
+            <a href="#">Ringraziamenti</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Welcome!</h1>
+            <h3>EVERYONE</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis corporis impedit minima nam a ducimus possimus perferendis consectetur quisquam, atque repudiandae voluptates nesciunt error, tempora officiis neque consequuntur! Expedita!</p>
+            <div class="btn-box">
+                <a href="#">Hire me</a>
+                <a href="#">Let's talk</a>
+            </div>
         </div>
-    </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
 
-    <!------------------------------About-------------------------------->
-    <div id="about">
+        <span class="home-imgHover"></span>
+    </section>
 
-    </div>
-    
+    <section class="about" id="about">
+        <div class="about-content">
+            <p>
+                Ciao e benvenuti! Questa pagina è nata quasi per gioco, un po’ 
+                come quelle idee che ti vengono dal nulla e alla fine diventano speciali. 
+                Alla fine ho capito che è il modo perfetto per esprimere il ‘me’ ingegnere informatico, 
+                unendo la mia passione per il digitale a un messaggio di ringraziamento. Qui trovate i miei pensieri dedicati 
+                a chi è stato al mio fianco durante l’università, a chi mi ha sostenuto 
+                nei momenti duri e ha festeggiato con me le piccole e grandi vittorie. Questo è il mio modo per dire grazie a ognuno di voi!
+            </p>
+        </div>
+    </section>
 
 </body>
 </html>
