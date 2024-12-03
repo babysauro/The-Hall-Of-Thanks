@@ -378,7 +378,7 @@ span {
 
 .tesi-column .tesi-box {
     position: relative;
-    border-left: .2rem soldi var(--main-color);
+    border-left: .2rem solid var(--main-color);
 }
 
 .tesi-box .tesi-content {
@@ -747,7 +747,7 @@ section:nth-child(odd) .animate.scroll {
     100%{
         transform: translate(-50%, -50%) rotate(360deg);
     }
-}
+} 
 
 @keyframes showRight {
     100% {
