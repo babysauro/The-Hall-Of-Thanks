@@ -9,7 +9,6 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
 }
 
 :root {
@@ -153,7 +152,7 @@ section {
     position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
-}ß
+}
 
 .btn-box {
     position: relative;
@@ -680,10 +679,21 @@ section:nth-child(odd) .animate.scroll {
         height: 38px;   
     }
 
-    .home.show-animate .home-content .text-animate h3 {
+    /* .home.show-animate .home-content .text-animate h3 {
         animation: homeBgText 6s linear infinite;
         animation-delay: 1.8s;
+    } */
+    
+    /*Rimozione animazione cursor*/
+    .home.show-animate .home-content .text-animate h3::before {
+        animation: none; 
     }
+
+    /* Rimozione del cursore */
+    .home.show-animate .home-content .text-animate h3::before {
+        display: none; 
+    }
+
 }
 
 @media (max-width: 462px) {
@@ -706,8 +716,19 @@ section:nth-child(odd) .animate.scroll {
 
     .home.show-animate .home-content .text-animate h3 {
         animation: homeBgText 6s linear infinite;
-        animation-delay: 1.7s;
+        animation-delay: 1.5s;
     }
+
+    /*Rimozione animazione cursor*/
+    .home.show-animate .home-content .text-animate h3::before {
+        animation: none; 
+    }
+
+    /* Rimozione del cursore */
+    .home.show-animate .home-content .text-animate h3::before {
+        display: none; 
+    }
+
 }
 
 @media (max-width: 371px) {
@@ -731,8 +752,18 @@ section:nth-child(odd) .animate.scroll {
         animation-delay: 0.1s;
     }
 
-    .home.show-animate .home-content .text-animate h3::before{
+    /* .home.show-animate .home-content .text-animate h3::before{
         animation: homeCursorText 4s linear infinite;
+    } */
+
+    /*Rimozione animazione cursor*/
+    .home.show-animate .home-content .text-animate h3::before {
+        animation: none; 
+    }
+
+    /* Rimozione del cursore */
+    .home.show-animate .home-content .text-animate h3::before {
+        display: none; 
     }
 
 }
@@ -752,14 +783,12 @@ section:nth-child(odd) .animate.scroll {
 
 @keyframes homeCursorText {
     0%,
-    10%,
     10% {
         width: 0;
     }
 
     65%,
-    75%,
-    85% {
+    75% {
         width: 100%;
         opacity: 1;
     }
@@ -770,6 +799,9 @@ section:nth-child(odd) .animate.scroll {
     }
 
 }
+
+
+
 
 @keyframes aboutSpinner {
     100%{
