@@ -109,10 +109,32 @@
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> 2024</div>
                             <h3>Bachelor Degree</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Voluptatem nostrum molestiae veritatis iusto necessitatibus quae 
-                                quia deleniti, sequi consequatur voluptatibus sit officia assumenda 
-                                amet repudiandae. Laboriosam labore aspernatur sit delectus.</p>
+                            <p>
+                                La tesi, <strong>"Analisi dei fallimenti e degli errori dell'orchestratore Kubernetes"</strong>, si concentra
+                                sul comportamento di Kubernetes quando si verificano errori, in particolare nell'interazione tra l'API-server e Etcd.
+                                Ho realizzato una campagna di <em>fault injection</em> per simulare diverse condizioni di errore e ho analizzato
+                                i log generati per identificare i pattern ricorrenti e valutare la resilienza del sistema.
+
+                                <p>
+                                    Il lavoro che ho svolto si sviluppa in tre fasi principali:
+                                </p>
+
+                                <ul>
+                                    <li><strong>Studio di Kubernetes:</strong> ho analizzato l'architettura di Kubernetes, esplorando le problematiche
+                                        tipiche dei sistemi distribuiti e le tecniche di <em>fault injection</em> utilizzate per simulare i guasti.</li>
+                                    <li><strong>Uso di Drain3:</strong> ho personalizzato un algoritmo di de-parametrizzazione, Drain3, per estrarre template
+                                        dai log e semplificare l'analisi dei comportamenti anomali che si verificano durante gli errori.</li>
+                                    <li><strong>Analisi dei fallimenti:</strong> ho esplorato i cluster generati dai log per trovare correlazioni tra i vari
+                                        tipi di errori e i comportamenti osservati, mettendo in luce le aree critiche e i punti di forza di Kubernetes.</li>
+                                </ul>
+
+                                <p>
+                                    Alla fine, ho concluso che, sebbene Kubernetes sia abbastanza resistente in molti scenari, ci sono alcune aree che
+                                    potrebbero essere migliorate, come la gestione delle risorse e la risposta agli errori di rete. Ottimizzare questi
+                                    aspetti è fondamentale per garantire che Kubernetes continui a essere robusto in ambienti complessi e ad alta disponibilità.
+                                </p>
+
+                            </p>
                         </div>
                     </div>
 
@@ -141,34 +163,67 @@
                         <div class="tesi-content">
                             <!-- RINGRAZIAMENTI -->
                             <div class="content">
-                                <p>Ringrazio <b>mamma </b> e <b> papà</b> i quali hanno sempre creduto in me anche 
-                                    quando avevo dei dubbi. Grazie per i sacrifici che avete fatto per permettermi 
-                                    di inseguire i miei traguardi, soprattutto questo. Grazie per la pazienza e la 
-                                    comprensione nel intraprendere questo percorso con me. Grazie per aver sopportato 
-                                    le mie incertezze e i miei momenti di stanchezza, per aver accolto le mie fragilità. 
-                                    Mi avete insegnato che ogni passo, per quanto piccolo, è un progresso, e che ogni successo 
-                                    è ancora più grande quando condiviso con chi ci ama.</p>
+                                <p>Al Professore <b>Della Corte Raffaele</b> e l’Ingegnere <b>Barletta Marco</b> per la loro immensa pazienza, per i consigli preziosi e 
+                                    per le conoscenze che mi hanno trasmesso durante tutto il percorso di stesura dell’elaborato.</p>
                             </div>
 
                             <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Voluptatem nostrum molestiae veritatis iusto necessitatibus quae 
-                                    quia deleniti, sequi consequatur voluptatibus sit officia assumenda 
-                                    amet repudiandae. Laboriosam labore aspernatur sit delectus.</p>
+                                <p>Ringrazio <b>mamma</b> e <b>papà</b> che hanno sempre creduto in me, anche quando avevo dei dubbi. 
+                                Grazie per i sacrifici che avete fatto per permettermi di raggiungere i miei traguardi, soprattutto questo. 
+                                Grazie per la pazienza e la comprensione che avete dimostrato nell’affrontare questo percorso insieme a me.  
+                                Grazie per aver sopportato le mie incertezze e i miei momenti di stanchezza, per aver accolto le mie fragilità. 
+                                Mi avete insegnato che ogni passo, per quanto piccolo, è un progresso, e che ogni successo è ancora più grande quando 
+                                è condiviso con le persone che amiamo.</p>
                             </div>
 
                             <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Voluptatem nostrum molestiae veritatis iusto necessitatibus quae 
-                                    quia deleniti, sequi consequatur voluptatibus sit officia assumenda 
-                                    amet repudiandae. Laboriosam labore aspernatur sit delectus.</p>
+                                <p>Grazie <b>Tiziana</b>, la mia sorella preferita che, anche da lontano, sei sempre stata al mio fianco. 
+                                    Nonostante la distanza, non mi hai mai fatto mancare la tua presenza, dimostrando che la vicinanza 
+                                    non è solo questione di chilometri, ma soprattutto di cuore. Grazie per avermi sostenuta con costanza e per avermi 
+                                    motivata a dare sempre di più.</p>
                             </div>
 
                             <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Voluptatem nostrum molestiae veritatis iusto necessitatibus quae 
-                                    quia deleniti, sequi consequatur voluptatibus sit officia assumenda 
-                                    amet repudiandae. Laboriosam labore aspernatur sit delectus.</p>
+                                <p>Ringrazio <b>Angelo</b>, il fratello che non ho mai avuto, il quale ha saputo essermi vicino con la stessa premura, 
+                                sostegno ed affetto di un vero fratello. Grazie per ogni discorso saggio, per i consigli preziosi, per le belle 
+                                chiacchierate, e per la tua capacità di vedere le cose con realismo e razionalità.</p>
+                            </div>
+
+                            <div class="content">
+                                <p>Ringrazio la piccola <b>Giulia</b> che riesce sempre a farmi sentire la sua vicinanza con il suo sorriso e 
+                                    la sua energia. La tua spontaneità, la tua allegria e la tua dolcezza sono una fonte di ispirazione inesauribile per me. 
+                                    Sei la piccola grande forza che mi sostiene e che mi ricorda ogni giorno l’importanza delle cose semplici e genuine.</p>
+                            </div>
+
+                            <div class="content">
+                                <p>Un ringraziamento speciale va al professor <b>Antonio Falanga</b>  che, fin dai tempi del liceo, aveva già visto in me un 
+                                    “Ingegnere” e immaginava per me grandi traguardi. Grazie alla sua pazienza, al suo entusiasmo e alla fiducia immensa che 
+                                    aveva riposto nelle mie capacità, aveva alimentato in me l'amore per la conoscenza, sostenendomi in ogni momento. 
+                                    Grazie a lui, ogni passo di questo percorso è stato compiuto con un più coraggio e convinzione. 
+                                    Oggi questo traguardo è anche vostro.</p>
+                            </div>
+
+                            <div class="content">
+                                <p>Ringrazio la mia seconda famiglia, il <b>Cerchioide della vita</b>. Mi avete vista crescere, affrontare esame dopo esame 
+                                    dandomi preziosi consigli. Grazie per avermi accompagnata in questo viaggio e per avermi sostenuta anche quando i libri 
+                                    sembravano insormontabili.  
+                                    Con voi ho imparato che, a volte, basta solo mangiare una pizza fritta e girare a destra per 
+                                    trovare la strada giusta.</p>
+                            </div>
+
+                            <div class="content">
+                                <p>Alla <b>Napoli giovane e ignorante</b>, con cui ho condiviso molto più che lo studio. 
+                                    Ogni momento era l’occasione giusta per stare insieme, cucinare carbonare squisite e rafforzare un legame speciale.  
+                                    Da voi ho imparato a giocare a Bingo, a scrivere contratti, a condividere le sedie e, cosa più importante, ho capito che gli 
+                                    spinaci hanno una coscienza. Grazie ragazzi per aver reso questo percorso unico e per averlo trasformato in un’ esperienza di 
+                                    condivisione rendendo ogni sfida più leggera e ogni successo più dolce.</p>
+                            </div>
+
+                            <div class="content">
+                                <p>Grazie <b>Sharted</b>. Ci siamo uniti per caso meno di un anno fa, ma è come se vi conoscessi da una vita. 
+                                    Grazie per tutte le giornate trascorse insieme a lavorare, ridere, presentare, mangiare, sclerare, dormire e cantare a 
+                                    squarciagola senza preoccuparci di cosa ne pensano gli altri. Grazie per ogni momento di supporto reciproco (non dimentichiamo 
+                                    Torre del Treno), per ogni viaggio fatto insieme, dal vetraio (impossibile dimenticarlo) a Mosto, da Firenze al Parco del Pollino.</p>
                             </div>
 
                             <div class="content">

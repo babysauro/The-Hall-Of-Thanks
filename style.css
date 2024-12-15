@@ -397,6 +397,17 @@ span {
     border-radius: 50%;
 }
 
+.tesi-box .tesi-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
 .tesi-content .content {
     position: relative;
     padding: 1.5rem;
@@ -439,6 +450,18 @@ span {
 .tesi-content .content p {
     font-size: 1.5rem;
     padding-top: .5rem;
+}
+
+/* Elenco lavoro svolto della tesi */
+.tesi-box ul{
+    font-size: 16px; 
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+/* Spazio tra gli elementi dell'elenco */
+.tesi-box li {
+    margin-bottom: 10px; 
 }
 
 .ringraziamenti {
