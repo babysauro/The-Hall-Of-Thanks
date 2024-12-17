@@ -397,16 +397,6 @@ span {
     border-radius: 50%;
 }
 
-.tesi-box .tesi-content::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -1.1rem;
-    width: 2rem;
-    height: 2rem;
-    background: var(--main-color);
-    border-radius: 50%;
-}
 
 .tesi-content .content {
     position: relative;
@@ -454,7 +444,7 @@ span {
 
 /* Elenco lavoro svolto della tesi */
 .tesi-box ul{
-    font-size: 16px; 
+    font-size: 1.5rem; 
     line-height: 1.6;
     padding-left: 20px;
 }
@@ -478,6 +468,10 @@ span {
 
 .ringraziamenti-column .ringraziamenti-box {
     position: relative;
+}
+
+.ringraziamenti p b {
+    color: var(--main-color);
 }
 
 .footer {
@@ -720,6 +714,12 @@ section:nth-child(odd) .animate.scroll {
 }
 
 @media (max-width: 462px) {
+
+    .home {
+        background: url('Background-462px.png');
+        background-size: cover;
+    }
+
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -727,6 +727,8 @@ section:nth-child(odd) .animate.scroll {
     .tesi {
         padding: 10rem 4% 5rem 5%;
     }
+
+    
 
     .footer {
         flex-direction: column-reverse;
