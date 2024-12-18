@@ -150,7 +150,7 @@ section {
 
 .home-content p {
     position: relative;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 2rem 0 4rem;
 }
 
@@ -338,7 +338,7 @@ span {
 
 .about-content p {
     position: relative;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 2rem 0 3rem;
 }
 
@@ -434,17 +434,17 @@ span {
 }
 
 .tesi-content .content h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .tesi-content .content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: .5rem;
 }
 
 /* Elenco lavoro svolto della tesi */
 .tesi-box ul{
-    font-size: 1.5rem; 
+    font-size: 2rem; 
     line-height: 1.6;
     padding-left: 20px;
 }
@@ -489,7 +489,7 @@ span {
 }
 
 .footer-text p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .footer-iconTop a {
@@ -582,7 +582,7 @@ section:nth-child(odd) .animate.scroll {
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html{
-        font-size: 55%;
+        font-size: 70%;
     }
 }
 
@@ -711,14 +711,19 @@ section:nth-child(odd) .animate.scroll {
         display: none; 
     }
 
+    .home {
+        background: url('Background-nosauro.svg');
+        background-size: cover;
+    } 
+
 }
 
-@media (max-width: 462px) {
+@media (max-width: 462px) { 
 
     .home {
-        background: url('Background-462px-reverse.svg');
+        background: url('Background-nosauro.svg');
         background-size: cover;
-    }
+    } 
 
     .home-content h1 {
         font-size: 5.2rem;
