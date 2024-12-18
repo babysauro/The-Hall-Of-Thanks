@@ -716,12 +716,16 @@ section:nth-child(odd) .animate.scroll {
 @media (max-width: 462px) {
 
     .home {
-        background: url('Background-462px.png');
+        background: url('Background-462px-reverse.svg');
         background-size: cover;
     }
 
     .home-content h1 {
         font-size: 5.2rem;
+    }
+
+    .home-imgHover {
+        display: none;
     }
 
     .tesi {
